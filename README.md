@@ -3,8 +3,8 @@
 ## What you will need to view the project:
 1. Python 3
 2. Virtual Machine using
-    -VirtualBox
-    -Vagrant
+- VirtualBox
+- Vagrant
 3. The database file
 
 ## Install Python 3
@@ -56,11 +56,11 @@ psql — the PostgreSQL command line program
 -f newsdata.sql — run the SQL statements in the file newsdata.sql
 Running this command will connect to your installed database server and execute the SQL commands in the downloaded file, creating tables and populating them with data.
 
-The database includes three tables:
+### The database includes three tables:
 
-The authors table includes information about the authors of articles.
-The articles table includes the articles themselves.
-The log table includes one entry for each time a user has accessed the site.
+- The authors table includes information about the authors of articles.
+- The articles table includes the articles themselves.
+- The log table includes one entry for each time a user has accessed the site.
 
 
 
