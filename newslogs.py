@@ -1,4 +1,5 @@
-# "Database code" for the Logs Analysis Project
+#!/usr/bin/env python3
+
 import psycopg2
 
 DBNAME = "news"
