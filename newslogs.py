@@ -35,7 +35,7 @@ def most_viewed_authors():
      db.close()
      print("\nMost popular authors:\n")
      for x in range(0, len(authors)):
-        print(authors[x][0] + " - " + str(authors[x][1]))
+        print(authors[x][0] + " - " + str(authors[x][1]) + " views")
      return authors
 
 def error_in_day():
